@@ -1,6 +1,7 @@
 <?php 
 $isVideo = 0;
 
+
 $mainBannerImages = array(
     array(
         'img_lg_url' => 'https://place-hold.it/1920x700/777/fff&fontsize=36',
