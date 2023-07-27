@@ -61,7 +61,7 @@
 </head>
 <body>
 	<?php
-	$_dir = "base-templates/";
+	$_dir = "page-templates/";
 // Open a directory, and read its contents
 	$files = array_values(array_filter(scandir($_dir), function($file) {
 		return !is_dir($file);
