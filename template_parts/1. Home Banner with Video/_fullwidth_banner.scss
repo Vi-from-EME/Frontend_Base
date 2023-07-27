@@ -1,0 +1,36 @@
+#eme-slider-v2{
+    position: relative;
+    width: 100%;
+    video{
+        width: 100%;
+    }
+    &.no-vid{
+        .owl-dots{
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            .owl-dot{
+                span{
+                    background-color: #869791;
+                }
+                &.active{
+                    span{
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.gh_main_logo{
+    position: absolute;
+    top: 100px;
+    @media only screen and (min-width : $tab_portrate ){
+        top: 120px;
+    }
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%);
+}
